@@ -1,0 +1,44 @@
+Readme for MemoryCoordinator
+
+Read entire instructions before starting to run. 
+Machine Used for testing: VMware Fusion (4GB Host, Ubuntu 16.04) on MAC OS
+
+Follow these before running each test case - 
+
+Steps to run the test suite:
+1. Kill all previous processes
+2. Destroy all vm’s
+3. Start all vm’s 
+4. Do assign processes for the vm’s
+5. Have separate terminals - one for running test case and one for monitoring 
+
+Steps to run my coordinator:
+1. On a separate terminal, do make clean
+2. Do make
+3. Run the executable ./memory_coordinator 1 -> or any time as needed
+4. I calculated the logs with an argument of 1 because the processes use up the memory really fast and 
+to catch the trends, 1 second or lesser would be ideal. 
+
+Start Monitoring, running the test case and my coordinator back to back on 3 terminals and observe the trends 
+on the monitor terminal. 
+
+Code Specific things:
+1. I have used a lot of hard coded thresholds for running my algorithm because I am using VMware with limited resources. 
+   These limits were set after repeated test case runs to get the most optimal outcome possible with my policy. 
+
+2. These hardcoded numbers could be increased/decreased as per requirement while testing depending on the machine where 
+   the testing takes place. 
+   
+3. All tests were performed on 4VMs and 4 Cores as the code is structured in to cater to that requirement. 
+
+4. Algorithm -> If the unused memory for a VM goes below 100MB, the actual balloon size is increased by the memory used 
+   by the VM and a buffer of 35% in each iteration. This happens provided the host free memory is greater than 100MB. 
+   This is for allocation. I don’t let the policy run if the host free memory falls below 100MB. Simultaneously,  
+   for deallocation, if the unused memory has been greater than 270 for at least 2 iterations (indicative enough that 
+   it is not being used), the actual balloon size is reduced by the same policy as above.
+
+5. Algorithmic trends -> The 1st test case runs for 10-20 seconds before the process dies, while the 2nd and 3rd test cases 
+   run for 20-30 seconds before the processes die. 
+
+6. The reason for lower running time for the first test case is the limited actual memory threshold I have, and 
+   my policy which caters equally to all the 3 test cases. 

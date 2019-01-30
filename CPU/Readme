@@ -1,0 +1,39 @@
+Readme for VcpuScheduler
+
+Read entire instructions before starting to run. 
+Machine Used for testing: VMware Fusion (4GB Host, Ubuntu 16.04) on MAC OS
+
+Follow these before running each test case - 
+
+Steps to run the test suite:
+1. Kill all previous processes
+2. Shutdown all vm’s
+3. Start all vm’s 
+4. Do assign processes for the vm’s
+5. Have separate terminals - one for running test case and one for monitoring 
+
+Steps to run my scheduler:
+1. On a separate terminal, do make clean
+2. Do make
+3. Run the executable ./vcpu_scheduler 12 -> or any time as needed
+4. I calculated the logs with an argument of 1 (i.e 1 second) but I tested also with 5 and 12 as arguments for 
+   better difference in utilization
+
+Start Monitoring, running the test case and my scheduler back to back on 3 terminals and observe the pinnings on 
+the monitor terminal. 
+
+Code Specific things:
+1. VCPUTHRESHOLD is currently set to 25 which is basically the threshold difference between the highest utilized core and 
+   the lowest utilized code which decides whether a pinning has to take place. I have set it to 25 because of the trends 
+   I was observing on my machine. The code could perform slightly differently based on this number. 
+
+2. All tests were performed on 8VMs and 4 Cores as the code is structured in to cater to that requirement. 
+
+3. Algorithm -> Pin the lowest utilized vCPU from the highest utilized core to the lowest utilized core if the difference 
+   in their utilization is above 25. There is test case specific policy for test cases 1&2 wherein, if a core has 
+   8 vCPUs or 4 vCPUs on it, instead of 1, it will pin multiple vCPUs from these cores to the lowest utilized cores. 
+   (At least 2 cores will be empty with no vCPUs on them for these 2 test cases at the start).  All this happens 
+   in every iteration.
+
+4. Algorithmic trends -> Load balancing observed in - 2-3 iterations for test cases 1& 2 and 1-2 iterations for 
+   test cases 3,4, & 5.

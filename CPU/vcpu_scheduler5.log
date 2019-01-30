@@ -1,0 +1,266 @@
+Script started on Sun 30 Sep 2018 07:58:03 PM EDT
+
+]0;akshaya@ubuntu: ~/Desktop/cs6210Project1_test-master/test/cpu[01;32makshaya@ubuntu[00m:[01;34m~/Desktop/cs6210Project1_test-master/test/cpu[00m$ 
+]0;akshaya@ubuntu: ~/Desktop/cs6210Project1_test-master/test/cpu[01;32makshaya@ubuntu[00m:[01;34m~/Desktop/cs6210Project1_test-master/test/cpu[00m$ ./monitor.py 
+virtual1: ([(0, 1, 26260000000L, 1)], [(True, True, True, True)])
+virtual2: ([(0, 1, 27630000000L, 0)], [(True, True, True, True)])
+virtual3: ([(0, 1, 28260000000L, 0)], [(True, True, True, True)])
+virtual4: ([(0, 1, 28580000000L, 2)], [(True, True, True, True)])
+virtual5: ([(0, 1, 27720000000L, 1)], [(True, True, True, True)])
+virtual6: ([(0, 1, 28120000000L, 0)], [(True, True, True, True)])
+virtual7: ([(0, 1, 28140000000L, 0)], [(True, True, True, True)])
+virtual8: ([(0, 1, 29900000000L, 0)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 0.0 []
+1: 0.0 []
+2: 0.0 []
+3: 0.0 []
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 26260000000L, 1)], [(True, True, True, True)])
+virtual2: ([(0, 1, 27630000000L, 1)], [(True, True, True, True)])
+virtual3: ([(0, 1, 28260000000L, 1)], [(True, True, True, True)])
+virtual4: ([(0, 1, 28580000000L, 2)], [(True, True, True, True)])
+virtual5: ([(0, 1, 27720000000L, 1)], [(True, True, True, True)])
+virtual6: ([(0, 1, 28120000000L, 1)], [(True, True, True, True)])
+virtual7: ([(0, 1, 28140000000L, 1)], [(True, True, True, True)])
+virtual8: ([(0, 1, 29900000000L, 0)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 0.0 ['virtual8']
+1: 0.0 ['virtual1', 'virtual2', 'virtual3', 'virtual5', 'virtual6', 'virtual7']
+2: 0.0 ['virtual4']
+3: 0.0 []
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 26540000000L, 2)], [(True, True, True, True)])
+virtual2: ([(0, 1, 27920000000L, 3)], [(True, True, True, True)])
+virtual3: ([(0, 1, 28570000000L, 0)], [(True, True, True, True)])
+virtual4: ([(0, 1, 28850000000L, 2)], [(True, True, True, True)])
+virtual5: ([(0, 1, 27940000000L, 1)], [(True, True, True, True)])
+virtual6: ([(0, 1, 28330000000L, 3)], [(True, True, True, True)])
+virtual7: ([(0, 1, 28370000000L, 0)], [(True, True, True, True)])
+virtual8: ([(0, 1, 30120000000L, 1)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 54.0 ['virtual3', 'virtual7']
+1: 44.0 ['virtual5', 'virtual8']
+2: 55.0 ['virtual1', 'virtual4']
+3: 50.0 ['virtual2', 'virtual6']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 27000000000L, 2)], [(True, True, True, True)])
+virtual2: ([(0, 1, 28410000000L, 0)], [(True, True, True, True)])
+virtual3: ([(0, 1, 29050000000L, 3)], [(True, True, True, True)])
+virtual4: ([(0, 1, 29330000000L, 1)], [(True, True, True, True)])
+virtual5: ([(0, 1, 28180000000L, 1)], [(True, True, True, True)])
+virtual6: ([(0, 1, 28550000000L, 3)], [(True, True, True, True)])
+virtual7: ([(0, 1, 28590000000L, 0)], [(True, True, True, True)])
+virtual8: ([(0, 1, 30360000000L, 2)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 71.0 ['virtual2', 'virtual7']
+1: 72.0 ['virtual4', 'virtual5']
+2: 70.0 ['virtual1', 'virtual8']
+3: 70.0 ['virtual3', 'virtual6']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 27480000000L, 1)], [(True, True, True, True)])
+virtual2: ([(0, 1, 28900000000L, 0)], [(True, True, True, True)])
+virtual3: ([(0, 1, 29540000000L, 2)], [(True, True, True, True)])
+virtual4: ([(0, 1, 29830000000L, 1)], [(True, True, True, True)])
+virtual5: ([(0, 1, 28410000000L, 3)], [(True, True, True, True)])
+virtual6: ([(0, 1, 28780000000L, 3)], [(True, True, True, True)])
+virtual7: ([(0, 1, 28820000000L, 1)], [(True, True, True, True)])
+virtual8: ([(0, 1, 30580000000L, 2)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 49.0 ['virtual2']
+1: 121.0 ['virtual1', 'virtual4', 'virtual7']
+2: 71.0 ['virtual3', 'virtual8']
+3: 46.0 ['virtual5', 'virtual6']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 27970000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 29370000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 30030000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 30320000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 28640000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 29000000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 29040000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 30810000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 70.0 ['virtual2', 'virtual5']
+1: 72.0 ['virtual1', 'virtual8']
+2: 71.0 ['virtual4', 'virtual6']
+3: 71.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 28460000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 29860000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 30520000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 30800000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 28870000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 29230000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 29270000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 31050000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 72.0 ['virtual2', 'virtual5']
+1: 73.0 ['virtual1', 'virtual8']
+2: 71.0 ['virtual4', 'virtual6']
+3: 72.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 28930000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 30330000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 30990000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 31270000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 29090000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 29450000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 29500000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 31270000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 69.0 ['virtual2', 'virtual5']
+1: 69.0 ['virtual1', 'virtual8']
+2: 69.0 ['virtual4', 'virtual6']
+3: 70.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 29440000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 30830000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 31480000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 31760000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 29320000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 29690000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 29730000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 31510000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 73.0 ['virtual2', 'virtual5']
+1: 75.0 ['virtual1', 'virtual8']
+2: 73.0 ['virtual4', 'virtual6']
+3: 72.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 29940000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 31330000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 31980000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 32260000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 29560000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 29920000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 29960000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 31750000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 74.0 ['virtual2', 'virtual5']
+1: 74.0 ['virtual1', 'virtual8']
+2: 73.0 ['virtual4', 'virtual6']
+3: 73.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 30430000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 31820000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 32460000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 32730000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 29800000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 30150000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 30190000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 31990000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 73.0 ['virtual2', 'virtual5']
+1: 73.0 ['virtual1', 'virtual8']
+2: 70.0 ['virtual4', 'virtual6']
+3: 71.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 30900000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 32300000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 32940000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 33180000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 30030000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 30370000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 30430000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 32210000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 71.0 ['virtual2', 'virtual5']
+1: 69.0 ['virtual1', 'virtual8']
+2: 67.0 ['virtual4', 'virtual6']
+3: 72.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 31400000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 32790000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 33440000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 33680000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 30260000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 30600000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 30660000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 32440000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 72.0 ['virtual2', 'virtual5']
+1: 73.0 ['virtual1', 'virtual8']
+2: 73.0 ['virtual4', 'virtual6']
+3: 73.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 31870000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 33280000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 33900000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 34160000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 30490000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 30850000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 30890000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 32680000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 72.0 ['virtual2', 'virtual5']
+1: 71.0 ['virtual1', 'virtual8']
+2: 73.0 ['virtual4', 'virtual6']
+3: 69.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 32360000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 33760000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 34380000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 34650000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 30730000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 31080000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 31120000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 32920000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 72.0 ['virtual2', 'virtual5']
+1: 73.0 ['virtual1', 'virtual8']
+2: 72.0 ['virtual4', 'virtual6']
+3: 71.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 32850000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 34250000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 34860000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 35150000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 30960000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 31300000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 31340000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 33150000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 72.0 ['virtual2', 'virtual5']
+1: 72.0 ['virtual1', 'virtual8']
+2: 72.0 ['virtual4', 'virtual6']
+3: 70.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 33360000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 34750000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 35360000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 35650000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 31190000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 31520000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 31570000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 33390000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 73.0 ['virtual2', 'virtual5']
+1: 75.0 ['virtual1', 'virtual8']
+2: 72.0 ['virtual4', 'virtual6']
+3: 73.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 33850000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 35240000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 35850000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 36140000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 31430000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 31760000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 31810000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 33620000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 73.0 ['virtual2', 'virtual5']
+1: 72.0 ['virtual1', 'virtual8']
+2: 73.0 ['virtual4', 'virtual6']
+3: 73.0 ['virtual3', 'virtual7']
+--------------------------------------------------------------------------------
+virtual1: ([(0, 1, 34350000000L, 1)], [(False, True, False, False)])
+virtual2: ([(0, 1, 35750000000L, 0)], [(True, False, False, False)])
+virtual3: ([(0, 1, 36350000000L, 3)], [(False, False, False, True)])
+virtual4: ([(0, 1, 36640000000L, 2)], [(False, False, True, False)])
+virtual5: ([(0, 1, 31660000000L, 0)], [(True, False, False, False)])
+virtual6: ([(0, 1, 31990000000L, 2)], [(False, False, True, False)])
+virtual7: ([(0, 1, 32040000000L, 3)], [(False, False, False, True)])
+virtual8: ([(0, 1, 33860000000L, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+
